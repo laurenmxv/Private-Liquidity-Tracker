@@ -37,8 +37,10 @@ foundryup
 
 *requires [foundry](https://book.getfoundry.sh)*
 
-```
-forge install
+```bash
+#use node for dependencies
+npm install
+
 forge test --via-ir
 ```
 
